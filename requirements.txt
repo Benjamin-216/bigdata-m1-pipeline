@@ -1,0 +1,6 @@
+# M1 数据处理管道 - 依赖清单
+# 生成日期: 2026-04-07
+# 安装命令: pip install -r requirements.txt
+
+# 核心数据处理引擎（核外计算，支持 Out-of-Core）
+duckdb>=1.0.0

@@ -322,8 +322,9 @@ stats = pipeline.load()
 ---
 
 ## 📄 许可证
-
 本项目为教学实验用途，仅供学习参考。
+
+项目开源地址：[https://github.com/Benjamin-216/bigdata-m1-pipeline](sslocal://flow/file_open?url=https%3A%2F%2Fgithub.com%2FBenjamin-216%2Fbigdata-m1-pipeline&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
 
 ---
 

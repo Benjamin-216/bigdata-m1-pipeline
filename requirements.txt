@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # M5 Unified Dependencies - Data Cleaning, Stream Simulation, LLM Feature, Dashboard
 # All third-party packages required for M5 full-stack integration project
 
@@ -33,3 +34,11 @@ matplotlib>=3.7.0          # shared - visualization
 # 1. Create venv: python -m venv venv
 # 2. Activate: venv\Scripts\activate (Windows)
 # 3. Install: pip install -r requirements.txt
+=======
+# M1 数据处理管道 - 依赖清单
+# 生成日期: 2026-04-07
+# 安装命令: pip install -r requirements.txt
+
+# 核心数据处理引擎（核外计算，支持 Out-of-Core）
+duckdb>=1.0.0
+>>>>>>> 2e8aa240a4909ef99b585b6e59ac66ad7874b476

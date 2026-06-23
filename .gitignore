@@ -34,3 +34,6 @@ __pycache__/
 *.temp
 *.swp
 *.swo
+
+# 实验报告截图、文档，本地保留不上传GitHub
+reports/

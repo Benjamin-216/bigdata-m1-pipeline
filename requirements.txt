@@ -1,0 +1,35 @@
+# M5 Unified Dependencies - Data Cleaning, Stream Simulation, LLM Feature, Dashboard
+# All third-party packages required for M5 full-stack integration project
+
+# -------------------- Data Cleaning (m1) --------------------
+pandas>=2.0.0              # m1 - core data processing
+numpy>=1.24.0              # m1 - numerical computing
+scipy>=1.10.0              # m1 - scientific computing
+
+# -------------------- Stream Simulation (m2) --------------------
+kafka-python>=2.0.2        # m2 - Kafka client
+confluent-kafka>=2.0.0     # m2 - high-performance Kafka
+faker>=19.0.0              # m2 - mock data generator
+
+# -------------------- LLM Feature (m3) --------------------
+transformers>=4.30.0       # m3 - pretrained models
+torch>=2.0.0               # m3 - PyTorch framework
+sentence-transformers>=2.2.0 # m3 - sentence embedding
+accelerate>=0.20.0         # m3 - training acceleration
+
+# -------------------- Dashboard (m4) --------------------
+fastapi>=0.100.0           # m4 - web API framework
+uvicorn>=0.23.0            # m4 - ASGI server
+pydantic>=2.0.0            # m4 - data validation
+python-multipart>=0.0.6    # m4 - file upload
+scikit-learn>=1.3.0        # m4 - machine learning
+
+# -------------------- Shared Dependencies --------------------
+requests>=2.31.0           # shared - HTTP client
+openpyxl>=3.1.0            # shared - Excel processing
+matplotlib>=3.7.0          # shared - visualization
+
+# -------------------- Deployment Commands --------------------
+# 1. Create venv: python -m venv venv
+# 2. Activate: venv\Scripts\activate (Windows)
+# 3. Install: pip install -r requirements.txt
